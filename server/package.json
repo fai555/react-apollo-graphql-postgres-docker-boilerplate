@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "apollo-server-express": "*",
+    "babel-cli": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-2": "*",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "2.8.4",
+    "cors-anywhere": "^0.4.1",
+    "express": "4.16.3",
+    "graphql": "*",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.11",
+    "merge-graphql-schemas": "*",
+    "nodemon": "1.18.3",
+    "pg": "7.4.3",
+    "pg-hstore": "*",
+    "redis": "2.8.0",
+    "sequelize": "^4.38.0"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets env,stage-2 index.js",
+    "start": "nodemon --exec babel-node --presets env,stage-2 index.js"
+  }
+}
